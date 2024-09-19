@@ -1,0 +1,121 @@
+{
+  "RU": {
+    "COMMANDO_SKILLSMAS_RAPIDFIREWITHRELOAD_NAME": "Стрельба очередью",
+    "COMMANDO_SKILLSMAS_RAPIDFIREWITHRELOAD_DESCRIPTION": "Стреляет во врага с высокой скорострельностью и наносит <style=cIsDamage>{Damage}%</style> урона. Имеет <style=cIsDamage>{Max Stock}</style> патронов.",
+
+    "COMMANDO_SKILLSMAS_HEAVYBULLETS_NAME": "Тяжёлые пули",
+    "COMMANDO_SKILLSMAS_HEAVYBULLETS_DESCRIPTION": "Медленно стреляет во врага и наносит <style=cIsDamage>{Damage}%</style> урона.",
+
+    "COMMANDO_SKILLSMAS_TRUEFMJ_NAME": "Фазовый луч",
+    "COMMANDO_SKILLSMAS_TRUEFMJ_DESCRIPTION": "Вы простреливаете <style=cIsDamage>врагов насквозь</style>, нанося <style=cIsDamage>{Damage}%</style> урона и отбрасывая их назад.",
+
+    "COMMANDO_SKILLSMAS_JETUP_NAME": "Тактический взлёт",
+    "COMMANDO_SKILLSMAS_JETUP_DESCRIPTION": "<style=cIsDamage>Поджог</style>. Взлетает вверх, нанося <style=cIsDamage>{Damage}%</style> урона.",
+
+    "HUNTRESS_SKILLSMAS_TRACKERGLAIVE_NAME": "Отслеживающая глефа",
+    "HUNTRESS_SKILLSMAS_TRACKERGLAIVE_DESCRIPTION": "Бросьте копьё, которое наносит <style=cIsDamage>{Damage}%</style> урона и отмечает врага. <style=cIsUtility>Самонаводящиеся стрелы также будут атаковать врага, в которого попало копьё</style>.",
+
+    "HUNTRESS_SKILLSMAS_MANUALAIM_NAME": "Прицеливание",
+    "HUNTRESS_SKILLSMAS_MANUALAIM_DESCRIPTION": "Включает и выключает режим <style=cIsUtility>прицеливания вручную</style>. Основной навык будет заряжать стрелу, наносящую <style=cIsDamage>{Minimum Damage}%-{Maximum Damage}%</style> урона и <style=cIsDamage>поджигающую</style> при полном заряде.",
+
+    "HUNTRESS_SKILLSMAS_MANUALAIMPRIMARY_NAME": "Прицеливание вручную",
+    "HUNTRESS_SKILLSMAS_MANUALAIMPRIMARY_DESCRIPTION": "<style=cIsUtility>Подвижность</style>. Заряжает стрелу, наносящую <style=cIsDamage>{Minimum Damage}%-{Maximum Damage}%</style> урона и <style=cIsDamage>поджигающую</style> при полном заряде.",
+
+    "BANDIT2_SKILLSMAS_SMOKEZONE_NAME": "Дым-машина",
+    "BANDIT2_SKILLSMAS_SMOKEZONE_DESCRIPTION": "Создаёт продолжительную дымовую зону, которая делает союзников внутри зоны <style=cIsUtility>невидимыми</style>.",
+
+    "BANDIT2_SKILLSMAS_CHAINKILLBUFF_NAME": "Смертельная вечеринка",
+    "BANDIT2_SKILLSMAS_CHAINKILLBUFF_DESCRIPTION": "<style=cIsDamage>Убийца.</style> Совершает выстрел из револьвера и наносит <style=cIsDamage>{Damage}% урона</style>. Убийства <style=cIsUtility>сбрасывают таймер навыка</style> и начинают <style=cIsDamage>цепочку убийств</style>.",
+
+    "BANDIT2_SKILLSMAS_SUPERBLEEDBARRAGE_NAME": "Кровавая бойня",
+    "BANDIT2_SKILLSMAS_SUPERBLEEDBARRAGE_DESCRIPTION": "Совершает <style=cIsDamage>{Shots}</style> выстрелов из револьвера, наносящих <style=cIsDamage>{Damage}% урона</style> по <style=cIsHealth>кровоточащим</style> врагам в зоне видимости.",
+
+    "TOOLBOT_SKILLSMAS_CRATE_NAME": "Грузовой ящик",
+    "TOOLBOT_SKILLSMAS_CRATE_DESCRIPTION": "Бросает ящик на <style=cIsDamage>{Damage}%</style> урона. <style=cIsUtility>Можно толкать, использовать как платформу или для блокировки снарядов.</style>",
+
+    "TOOLBOT_SKILLSMAS_ROBOTUPDATE_NAME": "Режим обновления",
+    "TOOLBOT_SKILLSMAS_ROBOTUPDATE_DESCRIPTION": "<style=cIsHealth>Безвредность</style>. Вводит в состояние обновления на <style=cIsHealth>{Update Duration}</style> сек., затем восстанавливает <style=cIsHealing>{Healing}%</style> ОЗ и даёт <style=cIsDamage>+{Attack Speed}%</style> скорости атаки на <style=cIsUtility>{Buff Duration}</style> секунд.",
+
+    "ENGI_SKILLSMAS_ENERGYSHIELD_NAME": "Энергощит",
+    "ENGI_SKILLSMAS_ENERGYSHIELD_DESCRIPTION": "<style=cIsUtility>Подвижность</style>. Создаёт стену, которая наносит <style=cIsDamage>{Damage Per Second}%</style> урона в секунду и <style=cIsUtility>блокирует большинство атак</style>.",
+
+    "MAGE_SKILLSMAS_PRIMARY_ICE_NAME": "Крио-выстрел",
+    "MAGE_SKILLSMAS_PRIMARY_ICE_DESCRIPTION": "<style=cIsUtility>Заморозка</style>. Выстрел снарядом <style=cIsUtility>для ближней дистанции</style>, который наносит врагам <style=cIsDamage>{Damage}% урона</style>. Можно иметь при себе до четырёх снарядов.",
+
+    "MAGE_SKILLSMAS_PRIMARY_ROCK_NAME": "Жеодовый выстрел",
+    "MAGE_SKILLSMAS_PRIMARY_ROCK_DESCRIPTION": "<style=cIsDamage>Кристаллизация</style>. Выстрел снарядом, который наносит врагам <style=cIsDamage>{Damage}% урона</style>. Можно иметь при себе до четырёх снарядов.",
+
+    "MAGE_SKILLSMAS_PRIMARY_WATER_NAME": "Водяной выстрел",
+    "MAGE_SKILLSMAS_PRIMARY_WATER_DESCRIPTION": "<style=cIsUtility>Оживление</style>. Выстрел снарядом, который наносит врагам <style=cIsDamage>{Damage}% урона</style> и имеет небольшую <style=cIsUtility>самонаводку</style>. Можно иметь при себе до четырёх снарядов.",
+
+    "MAGE_SKILLSMAS_SECONDARY_FIRE_NAME": "Подожжённая наноракета",
+    "MAGE_SKILLSMAS_SECONDARY_FIRE_DESCRIPTION": "<style=cIsDamage>Поджог</style>. Бросок <style=cIsDamage>сверхбыстрой</style> наноракеты, которая наносит <style=cIsDamage>{Minimum Damage}%-{Maximum Damage}%</style> урона.",
+
+    "MAGE_SKILLSMAS_SECONDARY_ROCK_NAME": "Формованный нановалун",
+    "MAGE_SKILLSMAS_SECONDARY_ROCK_DESCRIPTION": "<style=cIsDamage>Кристаллизация</style>. Бросок <style=cIsDamage>катящимся</style> нановалуном, который наносит <style=cIsDamage>{Minimum Damage}%-{Maximum Damage}%</style> урона.",
+
+    "MAGE_SKILLSMAS_SECONDARY_WATER_NAME": "Сконцентрированный нанопоток",
+    "MAGE_SKILLSMAS_SECONDARY_WATER_DESCRIPTION": "<style=cIsUtility>Оживление</style>. Выстрел <style=cIsDamage>продолжительным</style> нанопотоком, который наносит <style=cIsDamage>{Minimum Damage}%-{Maximum Damage}%</style> урона.",
+
+    "MAGE_SKILLSMAS_UTILITY_FIRE_NAME": "Самородная сера",
+    "MAGE_SKILLSMAS_UTILITY_FIRE_DESCRIPTION": "<style=cIsDamage>Поджог</style>. Создаёт экран, наносящий врагам <style=cIsDamage>{Damage Per Second}% урона в секунду</style> и <style=cIsDamage>поджигающий</style> снаряды союзников.",
+
+    "MAGE_SKILLSMAS_UTILITY_LIGHTNING_NAME": "Удар молнии",
+    "MAGE_SKILLSMAS_UTILITY_LIGHTNING_DESCRIPTION": "<style=cIsDamage>Оглушение</style>. Создаёт столб, периодически наносящий врагам поблизости <style=cIsDamage>{Damage}% урона</style>.",
+
+    "MAGE_SKILLSMAS_UTILITY_ROCK_NAME": "Тектонический сдвиг",
+    "MAGE_SKILLSMAS_UTILITY_ROCK_DESCRIPTION": "<style=cIsDamage>Кристаллизация</style>. Создаёт платформу под вами, наносящую врагам <style=cIsDamage>{Damage}% урона</style> в момент создания.",
+
+    "MAGE_SKILLSMAS_UTILITY_WATER_NAME": "Кучево-дождевое облако",
+    "MAGE_SKILLSMAS_UTILITY_WATER_DESCRIPTION": "<style=cIsUtility>Оживление</style>. Создаёт дождевое облако, наносящее врагам <style=cIsDamage>{Damage Per Second}% урона в секунду</style>.",
+
+    "MAGE_SKILLSMAS_SPECIAL_ICE_NAME": "Вспышка мороза",
+    "MAGE_SKILLSMAS_SPECIAL_ICE_DESCRIPTION": "<style=cIsUtility>Заморозка.</style> Создаёт холодный взрыв вокруг вас на <style=cIsDamage>{Damage}%</style> урона и даёт <style=cIsHealing>{Barrier}% временного барьера</style> за каждого замороженного персонажа.",
+
+    "MAGE_SKILLSMAS_SPECIAL_ROCK_NAME": "Суперболид",
+    "MAGE_SKILLSMAS_SPECIAL_ROCK_DESCRIPTION": "<style=cIsDamage>Кристаллизация</style>. Сбрасывает метеорит, наносящий <style=cIsDamage>{Damage}%</style> урона и превращающий врагов в камень на <style=cIsUtility>{Petrification Duration} сек.</style>",
+
+    "MAGE_SKILLSMAS_SPECIAL_WATER_NAME": "Бьющаяся волна",
+    "MAGE_SKILLSMAS_SPECIAL_WATER_DESCRIPTION": "<style=cIsUtility>Оживление</style>. Бросает вас вперёд, нанося урон, равный <style=cIsDamage>{Damage Scaling}%</style> от вашего максимального здоровья при столкновении.",
+
+    "MERC_SKILLSMAS_BLADEROLL_NAME": "Разрывное течение",
+    "MERC_SKILLSMAS_BLADEROLL_DESCRIPTION": "Позволяет катиться вперёд до <style=cIsUtility>{Max Duration}</style> секунд, нанося <style=cIsDamage>{Damage}%</style> урона. Длительность переката влияет на время восстановления.",
+
+    "MERC_SKILLSMAS_ZANDATSU_NAME": "Дзандацу",
+    "MERC_SKILLSMAS_ZANDATSU_DESCRIPTION": "Совершает рывок вперёд, чтобы нанести врагу <style=cIsDamage>{Damage}%</style> урона, казня при <style=cIsDamage>{Execute Threshold}%</style> ОЗ и ниже и восстанавливая <style=cIsHealing>{Healing}%</style> от вашего максимального запаса здоровья при убийстве.",
+
+    "MERC_SKILLSMAS_XSLASH_NAME": "Пересекающие штормы",
+    "MERC_SKILLSMAS_XSLASH_DESCRIPTION": "Выполняет крупный диагональный рубящий удар, наносящий <style=cIsDamage>{Damage}%</style> урона. Можно иметь при себе до 2 зарядов.",
+
+    "TREEBOT_SKILLSMAS_SPIKYROOTS_NAME": "Искоренение",
+    "TREEBOT_SKILLSMAS_SPIKYROOTS_DESCRIPTION": "<style=cIsHealth>{HP Cost}% ОЗ</style>. Атакует шипастыми корнями на <style=cIsDamage>{Damage}%</style> урона. <style=cIsHealing>Каждое попадание восстанавливает ваше здоровье</style>.",
+
+    "TREEBOT_SKILLSMAS_WALKINGHEALER_NAME": "ДИРЕКТИВА: Стимуляция",
+    "TREEBOT_SKILLSMAS_WALKINGHEALER_DESCRIPTION": "<style=cIsHealth>Безвредность</style>. Лечит союзников поблизости на <style=cIsHealing>{Healing}%</style> ОЗ в секунду.",
+
+    "LOADER_SKILLSMAS_QUICKGRAPPLE_NAME": "Молниеносный кулак",
+    "LOADER_SKILLSMAS_QUICKGRAPPLE_DESCRIPTION": "Выстрел перчаткой, <style=cIsUtility>быстро притягивающий</style> вас к цели после моментального возврата перчатки.",
+
+    "LOADER_SKILLSMAS_STOPBARRIERDECAY_NAME": "Укрепление",
+    "LOADER_SKILLSMAS_STOPBARRIERDECAY_DESCRIPTION": "<style=cIsUtility>Останавливает</style> потерю временного барьера и увеличивает скорость атаки на <style=cIsDamage>{Attack Speed}%</style> в течение <style=cIsUtility>{Buff Duration}</style> секунд.",
+
+    "CROCO_SKILLSMAS_POISONBUBBLE_NAME": "Автономный организм",
+    "CROCO_SKILLSMAS_POISONBUBBLE_DESCRIPTION": "<style=cIsHealing>Отравление.</style> Создаёт медленно движущийся пузырь, наносящий <style=cIsDamage>{Damage}%</style> урона врагам поблизости.",
+
+    "CROCO_SKILLSMAS_POISONEXTENSION_NAME": "Нейтропения",
+    "CROCO_SKILLSMAS_POISONEXTENSION_DESCRIPTION": "Выпускает смертельное заражение, снимающее отравление с врага, чтобы распространить его до <style=cIsDamage>{Max Targets}</style> целей с <style=cIsUtility>{Duration Multiplier}x</style> длительностью.",
+
+    "CAPTAIN_SKILLSMAS_LENDMICROBOTS_NAME": "Рука помощи",
+    "CAPTAIN_SKILLSMAS_LENDMICROBOTS_DESCRIPTION": "Даёт <style=cIsUtility>Защитных микроботов</style> союзнику на <style=cIsUtility>{Duration}</style> секунд.",
+
+    "CAPTAIN_SKILLSMAS_REUSEABLEBEACON_NAME": "Многоразовый маяк снабжения",
+    "CAPTAIN_SKILLSMAS_REUSEABLEBEACON_DESCRIPTION": "Запрашивает <style=cIsUtility>постоянный</style> маяк снабжения. <style=cIsUtility>Чередуется</style> между вашими двумя выбранными маяками.",
+
+    "KEYWORD_SKILLSMAS_CRYSTALLIZE": "<style=cKeywordName>Кристаллизация</style><style=cSub>При попадании создаёт кристаллы. При подборе кристаллы дают временный барьер, равный <style=cIsHealing>{Fractional Barrier}%</style> от максимального здоровья.</style>",
+    "KEYWORD_SKILLSMAS_REVITALIZING": "<style=cKeywordName>Оживление</style><style=cSub>Попадания по противникам восстанавливают здоровье всем союзникам, равное <style=cIsHealing>{Flat Healing}</style> ОЗ и дополнительно <style=cIsHealing>{Fractional Healing}%</style> от <style=cIsUtility>вашего</style> максимального здоровья.</style>",
+    "KEYWORD_SKILLSMAS_ARTIFICEREXTENDED_ALTPASSIVE_ROCK": "<style=cKeywordName>Если активирован Energetic Resonance</style><style=cKeywordName>Отвердевание</style><style=cSub>Кристаллы также дают <style=cIsUtility>{Energetic Resonance Armor}</style> брони на <style=cIsUtility>{Energetic Resonance Duration}</style> сек.\r\n<style=cIsUtility>Отвердевание</style> длится дольше за каждый <style=cIsDamage>КАМЕННЫЙ</style> навык.</style>",
+    "KEYWORD_SKILLSMAS_ARTIFICEREXTENDED_ALTPASSIVE_WATER": "<style=cKeywordName>Если активирован Energetic Resonance</style><style=cKeywordName>Освящение</style><style=cSub>Оживление также имеет <style=cIsUtility>{Energetic Resonance Chance}%</style> вероятности очистить от <style=cIsUtility>1</style> случайного негативного эффекта.\r\n<style=cIsUtility>Освящение</style> имеет увеличенный шанс срабатывания за каждый <style=cIsDamage>ВОДЯНОЙ</style> навык.</style>",
+    "KEYWORD_SKILLSMAS_HARMLESS": "<style=cKeywordName>Безвредность</style><style=cSub>Нельзя атаковать во время этого навыка.</style>",
+    "KEYWORD_SKILLSMAS_KILLCHAIN": "<style=cKeywordName>Цепочка убийств</style><style=cSub>Помечает врага на <style=cIsUtility>{Mark Duration}</style> сек. Убийство помеченных врагов сбрасывает таймер навыка и помечает другого врага. После промаха или убийства {Max Chain Kills} помеченных врагов вы получаете <style=cIsDamage>+{Bonus Per Mark Kill}% урона за каждое убийство в цепочке</style> на <style=cIsUtility>{Buff Duration}</style> сек.</style>"
+  }
+}

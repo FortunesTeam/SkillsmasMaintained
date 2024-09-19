@@ -1,0 +1,122 @@
+{
+  "zh-CN": {
+    "COMMANDO_SKILLSMAS_RAPIDFIREWITHRELOAD_NAME": "爆发射击",
+    "COMMANDO_SKILLSMAS_RAPIDFIREWITHRELOAD_DESCRIPTION": "以极高射速向敌人射击，造成<style=cIsDamage>{Damage}%</style>伤害。每轮至多发射<style=cIsDamage>{Max Stock}</style>发弹药",
+
+    "COMMANDO_SKILLSMAS_HEAVYBULLETS_NAME": "高威力弹药",
+    "COMMANDO_SKILLSMAS_HEAVYBULLETS_DESCRIPTION": "以较低射速向敌人射击，造成<style=cIsDamage>{Damage}%</style>伤害。",
+
+    "COMMANDO_SKILLSMAS_TRUEFMJ_NAME": "相位激光",
+    "COMMANDO_SKILLSMAS_TRUEFMJ_DESCRIPTION": "射击<style=cIsDamage>穿透敌人</style>，造成<style=cIsDamage>{Damage}%</style>伤害，并击退他们。",
+
+    "COMMANDO_SKILLSMAS_JETUP_NAME": "战术升空",
+    "COMMANDO_SKILLSMAS_JETUP_DESCRIPTION": "<style=cIsDamage>点燃</style>。一飞冲天，造成<style=cIsDamage>{Damage}%</style>伤害。",
+
+    "HUNTRESS_SKILLSMAS_TRACKERGLAIVE_NAME": "追踪月刃",
+    "HUNTRESS_SKILLSMAS_TRACKERGLAIVE_DESCRIPTION": "投掷一把月刃，造成<style=cIsDamage>{Damage}%</style>伤害。<style=cIsUtility>追踪箭也会锁定被月刃击中的敌人</style>。",
+
+    "HUNTRESS_SKILLSMAS_MANUALAIM_NAME": "瞄准",
+    "HUNTRESS_SKILLSMAS_MANUALAIM_DESCRIPTION": "切换为<style=cIsUtility>手动瞄准</style>模式。你的主要技能将变为蓄力并发射一发弓箭，造成<style=cIsDamage>{Minimum Damage}%-{Maximum Damage}%</style>伤害，并在满蓄力时额外造成<style=cIsDamage>点燃</style>。",
+
+    "HUNTRESS_SKILLSMAS_MANUALAIMPRIMARY_NAME": "手动瞄准",
+    "HUNTRESS_SKILLSMAS_MANUALAIMPRIMARY_DESCRIPTION": "<style=cIsUtility>灵巧</style>。蓄力并发射一发弓箭，造成<style=cIsDamage>{Minimum Damage}%-{Maximum Damage}%</style>伤害，在满蓄力时额外造成<style=cIsDamage>点燃</style>。",
+
+    "BANDIT2_SKILLSMAS_SMOKEZONE_NAME": "发烟器",
+    "BANDIT2_SKILLSMAS_SMOKEZONE_DESCRIPTION": "创造一个持续存在的烟雾区域，使位于其范围内的友方<style=cIsUtility>隐身</style>。",
+
+    "BANDIT2_SKILLSMAS_CHAINKILLBUFF_NAME": "屠杀派对",
+    "BANDIT2_SKILLSMAS_CHAINKILLBUFF_DESCRIPTION": "<style=cIsDamage>屠杀者</style>。使用左轮手枪进行射击，造成<style=cIsDamage>{Damage}%伤害</style>。击杀敌人将<style=cIsUtility>重置所有技能的冷却时间</style>并触发<style=cIsDamage>连杀</style>。",
+
+    "BANDIT2_SKILLSMAS_SUPERBLEEDBARRAGE_NAME": "浴血",
+    "BANDIT2_SKILLSMAS_SUPERBLEEDBARRAGE_DESCRIPTION": "使用左轮手枪发射<style=cIsDamage>{Shots}</style>发子弹，以视野内<style=cIsHealth>出血</style>的敌人为目标，造成<style=cIsDamage>{Damage}%伤害</style>。 ",
+
+    "TOOLBOT_SKILLSMAS_CRATE_NAME": "板条箱",
+    "TOOLBOT_SKILLSMAS_CRATE_DESCRIPTION": "扔出一个板条箱，造成<style=cIsDamage>{Damage}%</style>伤害。<style=cIsUtility>可以被推来推去，用作平台或阻挡投射物。</style>",
+
+    "TOOLBOT_SKILLSMAS_ROBOTUPDATE_NAME": "更新模式",
+    "TOOLBOT_SKILLSMAS_ROBOTUPDATE_DESCRIPTION": "<style=cIsHealth>无害化</style>。进入更新模式，持续<style=cIsHealth>{Update Duration}</style>秒，随后回复<style=cIsHealing>{Healing}%</style>生命值并获得<style=cIsDamage>+{Attack Speed}%</style>攻速，持续<style=cIsUtility>{Buff Duration}</style>秒。",
+
+    "ENGI_SKILLSMAS_ENERGYSHIELD_NAME": "能量护盾",
+    "ENGI_SKILLSMAS_ENERGYSHIELD_DESCRIPTION": "<style=cIsUtility>灵巧</style>，生成一堵护盾墙，造成每秒<style=cIsDamage>{Damage Per Second}%</style>伤害并<style=cIsUtility>阻挡大多数攻击</style>。",
+
+    "MAGE_SKILLSMAS_PRIMARY_ICE_NAME": "冰冻弹",
+    "MAGE_SKILLSMAS_PRIMARY_ICE_DESCRIPTION": "<style=cIsUtility>冰冻</style>。发射一道<style=cIsUtility>短程</style>能量矢，对敌人造成<style=cIsDamage>{Damage}%伤害</style>。最多可发射4次",
+
+    "MAGE_SKILLSMAS_PRIMARY_ROCK_NAME": "晶簇弹",
+    "MAGE_SKILLSMAS_PRIMARY_ROCK_DESCRIPTION": "<style=cIsDamage>结晶</style>。发射一道能量矢，对敌人造成<style=cIsDamage>{Damage}%伤害</style>。最多可发射4次。",
+
+    "MAGE_SKILLSMAS_PRIMARY_WATER_NAME": "水弹",
+    "MAGE_SKILLSMAS_PRIMARY_WATER_DESCRIPTION": "<style=cIsUtility>回复</style>。发射一道<style=cIsUtility>弱追踪</style>能量矢，对敌人造成<style=cIsDamage>{Damage}%伤害</style>。最多可发射4次。",
+
+    "MAGE_SKILLSMAS_SECONDARY_FIRE_NAME": "燃烧纳米火箭",
+    "MAGE_SKILLSMAS_SECONDARY_FIRE_DESCRIPTION": "<style=cIsDamage>点燃</style>。充能并发射一枚<style=cIsDamage>超高速</style>纳米火箭，造成<style=cIsDamage>{Minimum Damage}%-{Maximum Damage}%</style>伤害。",
+
+    "MAGE_SKILLSMAS_SECONDARY_ROCK_NAME": "塑形纳米枪",
+    "MAGE_SKILLSMAS_SECONDARY_ROCK_DESCRIPTION": "<style=cIsDamage>结晶</style>。充能并发射一枚<style=cIsDamage>滚动</style>的纳米巨石，造成<style=cIsDamage>{Minimum Damage}%-{Maximum Damage}%</style>伤害。",
+
+    "MAGE_SKILLSMAS_SECONDARY_WATER_NAME": "聚能纳米射流",
+    "MAGE_SKILLSMAS_SECONDARY_WATER_DESCRIPTION": "<style=cIsUtility>回复</style>。充能并发射一束<style=cIsDamage>持续性</style>纳米射流，造成<style=cIsDamage>{Minimum Damage}%-{Maximum Damage}%</style>伤害。",
+
+    "MAGE_SKILLSMAS_UTILITY_FIRE_NAME": "硫磺",
+    "MAGE_SKILLSMAS_UTILITY_FIRE_DESCRIPTION": "<style=cIsDamage>点燃</style>。生成一道火墙，造成<style=cIsDamage>每秒{Damage Per Second}%伤害</style>并<style=cIsDamage>点燃</style>友方的投射物。",
+
+    "MAGE_SKILLSMAS_UTILITY_LIGHTNING_NAME": "霹雳",
+    "MAGE_SKILLSMAS_UTILITY_LIGHTNING_DESCRIPTION": "<style=cIsDamage>眩晕</style>。生成一个柱子，对附近的敌人周期性造成<style=cIsDamage>{Damage}%伤害</style>。",
+
+    "MAGE_SKILLSMAS_UTILITY_ROCK_NAME": "重构",
+    "MAGE_SKILLSMAS_UTILITY_ROCK_DESCRIPTION": "<style=cIsDamage>结晶</style>。 在你脚下生成一个平台，在生成瞬间对周围敌人造成<style=cIsDamage>{Damage}%伤害</style>。",
+
+    "MAGE_SKILLSMAS_UTILITY_WATER_NAME": "雨云",
+    "MAGE_SKILLSMAS_UTILITY_WATER_DESCRIPTION": "<style=cIsUtility>回复</style>。生成一个雨云，对敌人造成<style=cIsDamage>每秒{Damage Per Second}%伤害</style>。",
+
+    "MAGE_SKILLSMAS_SPECIAL_ICE_NAME": "急冻",
+    "MAGE_SKILLSMAS_SPECIAL_ICE_DESCRIPTION": "<style=cIsUtility>冰冻</style>。以你为中心进行一次冰爆，造成<style=cIsDamage>{Damage}%</style>伤害，且每冰冻一个单位便获得<style=cIsHealing>{Barrier}%临时屏障</style>。",
+
+    "MAGE_SKILLSMAS_SPECIAL_ROCK_NAME": "飞火流星",
+    "MAGE_SKILLSMAS_SPECIAL_ROCK_DESCRIPTION": "<style=cIsDamage>结晶</style>。扔下一个流星，造成<style=cIsDamage>{Damage}%</style>伤害并石化敌人，持续<style=cIsUtility>{Petrification Duration}秒</style>。",
+
+    "MAGE_SKILLSMAS_SPECIAL_WATER_NAME": "巨浪",
+    "MAGE_SKILLSMAS_SPECIAL_WATER_DESCRIPTION": "<style=cIsUtility>回复</style>，向前冲浪，每次命中瞬间造成相当于你的最大生命值<style=cIsDamage>{Damage Scaling}%</style>的伤害。",
+
+    "MERC_SKILLSMAS_BLADEROLL_NAME": "激流",
+    "MERC_SKILLSMAS_BLADEROLL_DESCRIPTION": "前滚至多<style=cIsUtility>{Max Duration}</style>秒，造成<style=cIsDamage>{Damage}%</style>伤害。前滚持续时间影响冷却时间。",
+
+    "MERC_SKILLSMAS_ZANDATSU_NAME": "斩夺",
+    "MERC_SKILLSMAS_ZANDATSU_DESCRIPTION": "向前冲刺并对一名敌人造成<style=cIsDamage>{Damage}%</style>伤害，斩杀低于<style=cIsDamage>{Execute Threshold}%</style>生命值的敌人。并在击杀时回复相当于<style=cIsHealing>{Healing}%</style>最大生命值的生命值",
+
+    "MERC_SKILLSMAS_XSLASH_NAME": "十字爆发",
+    "MERC_SKILLSMAS_XSLASH_DESCRIPTION": "执行一次大范围十字斩，造成<style=cIsDamage>{Damage}%</style>伤害。可充能2次。",
+
+    "TREEBOT_SKILLSMAS_SPIKYROOTS_NAME": "连根拔起",
+    "TREEBOT_SKILLSMAS_SPIKYROOTS_DESCRIPTION": "<style=cIsHealth>{HP Cost}%生命值</style>。用带刺的根攻击，造成<style=cIsDamage>{Damage}%</style>伤害。<style=cIsHealing>每次命中都会恢复生命值</style>。",
+
+    "TREEBOT_SKILLSMAS_WALKINGHEALER_NAME": "指令：激发",
+    "TREEBOT_SKILLSMAS_WALKINGHEALER_DESCRIPTION": "<style=cIsHealth>无害化</style>。以每秒<style=cIsHealing>{Healing}%</style>HP的速率治疗周围友方单位。",
+
+    "LOADER_SKILLSMAS_QUICKGRAPPLE_NAME": "钩拳",
+    "LOADER_SKILLSMAS_QUICKGRAPPLE_DESCRIPTION": "向前发射铁手套，将你<style=cIsUtility>快速拉向</style>目标，随后立即收回铁手套。",
+
+    "LOADER_SKILLSMAS_STOPBARRIERDECAY_NAME": "强化",
+    "LOADER_SKILLSMAS_STOPBARRIERDECAY_DESCRIPTION": "<style=cIsUtility>停止</style>屏障衰减，并提升<style=cIsDamage>{Attack Speed}%</style>攻速。持续<style=cIsUtility>{Buff Duration}</style>秒。",
+
+    "CROCO_SKILLSMAS_POISONBUBBLE_NAME": "自主有机体",
+    "CROCO_SKILLSMAS_POISONBUBBLE_DESCRIPTION": "<style=cIsHealing>毒化</style>。制造一个缓慢移动的泡泡，对其附近的敌人造成每秒<style=cIsDamage>{Damage}%</style>的伤害。",
+
+    "CROCO_SKILLSMAS_POISONEXTENSION_NAME": "中性粒细胞减少症",
+    "CROCO_SKILLSMAS_POISONEXTENSION_DESCRIPTION": "释放一种致命病毒，清除敌人的毒化效果并将其传播至至多<style=cIsDamage>{Max Targets}</style>个目标，并延长其持续时间至<style=cIsUtility>{Duration Multiplier}x</style>。",
+
+    "CAPTAIN_SKILLSMAS_LENDMICROBOTS_NAME": "施以援手",
+    "CAPTAIN_SKILLSMAS_LENDMICROBOTS_DESCRIPTION": "将<style=cIsUtility>防御用微型机器人</style>给予一名友军，持续<style=cIsUtility>{Duration}</style>秒。",
+
+    "CAPTAIN_SKILLSMAS_REUSEABLEBEACON_NAME": "可复用补给信标",
+    "CAPTAIN_SKILLSMAS_REUSEABLEBEACON_DESCRIPTION": "呼叫一个<style=cIsUtility>永久性的</style>补给信标。在已选择的两个信标间<style=cIsUtility>交替切换</style>。",
+
+    "KEYWORD_SKILLSMAS_CRYSTALLIZE": "<style=cKeywordName>结晶</style><style=cSub>命中目标时生成水晶，捡拾时可获得相当于<style=cIsHealing>{Fractional Barrier}%</style>最大生命值的临时屏障。</style>",
+    "KEYWORD_SKILLSMAS_REVITALIZING": "<style=cKeywordName>回复</style><style=cSub>命中敌人为所有友方单位回复<style=cIsHealing>{Flat Healing}</style> 点HP，外加相当于<style=cIsUtility>你的</style>最大生命值的<style=cIsHealing>{Fractional Healing}%</style>的HP。</style>",
+    "KEYWORD_SKILLSMAS_ARTIFICEREXTENDED_ALTPASSIVE_ROCK": "<style=cKeywordName>如果配备了能量共振</style><style=cKeywordName>硬化</style><style=cSub>水晶还会额外提升<style=cIsUtility>{Energetic Resonance Armor}</style>点护甲，持续<style=cIsUtility>{Energetic Resonance Duration}</style>秒。\r\n<style=cIsUtility>硬化</style>持续时间随携带的<style=cIsDamage>岩属性</style>技能数增加而增加。</style>",
+    "KEYWORD_SKILLSMAS_ARTIFICEREXTENDED_ALTPASSIVE_WATER": "<style=cKeywordName>如果配备了能量共振</style><style=cKeywordName>净化</style><style=cSub>回复还会有额外<style=cIsUtility>{Energetic Resonance Chance}%</style>几率净化<style=cIsUtility>1</style>种随机负面效果。\r\n<style=cIsUtility>净化</style>几率随携带的<style=cIsDamage>水属性</style>技能数增加而增加。</style>",
+    "KEYWORD_SKILLSMAS_HARMLESS": "<style=cKeywordName>无害化</style><style=cSub>使用此技能时无法攻击。</style>",
+    "KEYWORD_SKILLSMAS_KILLCHAIN": "<style=cKeywordName>连杀</style><style=cSub>标记一名敌人，持续<style=cIsUtility>{Mark Duration}</style>秒。击杀被标记的敌人将重置效果冷却时间并标记下一个敌人。在单次打偏或已击杀{Max Chain Kills}名被标记的敌人时，获得<style=cIsDamage>每次连杀+{Bonus Per Mark Kill}%伤害</style>，持续<style=cIsUtility>{Buff Duration}</style>秒。</style>"
+
+  }
+}

@@ -1,0 +1,352 @@
+ManifestFileVersion: 0
+CRC: 2864446523
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0f0c3fc7861ff447c3dbf4444f50bc1c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 12740e3791eb242e54cba2ed9eb7e299
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 96
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 40b924e2dad56384a8df2a1e111bb675, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: adb84e30e02715445aeb9959894e3b4d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9b77c5407dc277943b591ade9e6b18c5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 120
+  Script: {instanceID: 0}
+- Class: 134
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.BoolParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.ColorParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.FloatParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.GradingModeParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.Spline
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.SplineParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.TextureParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.TonemapperParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.Vector2Parameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.Vector4Parameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.VignetteModeParameter
+Assets:
+- Assets/Mods/Skillsmas/Skills/Huntress/ManualAim/matManualAimCircleParticle.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/Revitalizing/RevitalizingEffect.prefab
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/Crystallize/BarrierCrystalPickup.prefab
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockMeteor/RockMeteorGhost.prefab
+- Assets/Mods/Skillsmas/Skills/Huntress/TrackerGlaive/TrackerGlaiveProjectile.prefab
+- Assets/Mods/Skillsmas/SkillIcons/LitNanoRocket.asset
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterBomb/WaterBeam.prefab
+- Assets/Mods/Skillsmas/SkillIcons/Superbolide.asset
+- Assets/Mods/Skillsmas/SkillIcons/Thunderbolt.asset
+- Assets/Mods/Skillsmas/Skills/Huntress/ManualAim/matManualAimChargeParticle.mat
+- Assets/Mods/Skillsmas/Skills/Mercenary/XSlash/XSlash2Ghost.prefab
+- Assets/Mods/Skillsmas/Skills/Huntress/ManualAim/matManualAimArrowChargedTrail.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterCloud/WaterCloudAreaIndicator.prefab
+- Assets/Mods/Skillsmas/Skills/Artificer/FireWall/matFireWallLines.mat
+- Assets/Mods/Skillsmas/Skills/Mercenary/XSlash/matXSlash.mat
+- Assets/Mods/Skillsmas/Skills/Huntress/TrackerGlaive/wooden_handle_saber_1k.fbx
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockBomb/RockBombProjectile.prefab
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockBomb/rock_surface_nor_gl_1k.exr
+- Assets/Mods/Skillsmas/SkillIcons/Uprooting.png
+- Assets/Mods/Skillsmas/Skills/Artificer/FireWall/texFireWallHexagon.png
+- Assets/Mods/Skillsmas/SkillIcons/Riptide.asset
+- Assets/Mods/Skillsmas/Skills/Engi/EnergyShield/EnergyShield 1.prefab
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterWave/matWaterWaveEffectSide.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/Crystallize/matBarrierCrystal.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockBomb/physmatRockBomb.physicMaterial
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/Revitalizing/texRevitalizingEffectParticle.png
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockBomb/matRockBombDust.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockPlatform/RockPlatformLifetimeExpiredEffect.prefab
+- Assets/Mods/Skillsmas/Skills/Acrid/PoisonBubble/BubbleProjectileGhost.prefab
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockMeteor/matRockMeteor.mat
+- Assets/Mods/Skillsmas/Skills/Mercenary/XSlash/matXSlashParticle.mat
+- Assets/Mods/Skillsmas/SkillIcons/ConcentratedNanoStream.png
+- Assets/Mods/Skillsmas/Skills/Engi/EnergyShield/mdlEnergyShield.fbx
+- Assets/Mods/Skillsmas/Skills/Commando/TrueFMJ/matTrueFMJRing.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterBolt/matWaterBoltTrail.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockMeteor/coral_stone_wall_nor_gl_1k.exr
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/Revitalizing/matRevitalizingEffectParticle.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterCloud/WaterCloudExpireEffect.prefab
+- Assets/Mods/Skillsmas/SkillIcons/MurderParty.png
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterBomb/matWaterBombChargeRing.mat
+- Assets/Mods/Skillsmas/Skills/MUL-T/RobotUpdate/matRobotUpdateArrow.mat
+- Assets/Mods/Skillsmas/SkillIcons/PhaseBeam.asset
+- Assets/Mods/Skillsmas/SkillIcons/LitNanoRocket.png
+- Assets/Mods/Skillsmas/Skills/Acrid/PoisonBubble/matPoisonBubble.mat
+- Assets/Mods/Skillsmas/Skills/Acrid/PoisonBubble/matPoisonBubbleOverlay.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/Crystallize/physmatBarrierCrystal.physicMaterial
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterBomb/ChargeWaterBomb.prefab
+- Assets/Mods/Skillsmas/Skills/Bandit/ChainKillBuff/matEnemyMarkOverlayShakyBackdrop.mat
+- Assets/Mods/Skillsmas/SkillIcons/Crate.asset
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockBolt/matRockBoltDirty.mat
+- Assets/Mods/Skillsmas/Skills/Engi/EnergyShield/matEnergyShield.mat
+- Assets/Mods/Skillsmas/Skills/Bandit/ChainKillBuff/MarkedEnemyOverlay.prefab
+- Assets/Mods/Skillsmas/Skills/Huntress/ManualAim/ManualAimArrowChargedGhost.prefab
+- Assets/Mods/Skillsmas/SkillIcons/UpdateMode.asset
+- Assets/Mods/Skillsmas/Skills/Artificer/FireWall/texFireWall.png
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterCloud/texWaterCloud.jpg
+- Assets/Mods/Skillsmas/Skills/Huntress/ManualAim/ManualAimArrowGhost.prefab
+- Assets/Mods/Skillsmas/Skills/Huntress/TrackerGlaive/wooden_handle_saber_nor_gl_1k.exr
+- Assets/Mods/Skillsmas/SkillIcons/PoisonBubble.asset
+- Assets/Mods/Skillsmas/Skills/Commando/TrueFMJ/matTracerCommandoTrueFMJ.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/LightningPillar/texLightningPillarEmission.png
+- Assets/Mods/Skillsmas/Skills/Commando/HeavyBullets/TracerCommandoHeavyBullet.prefab
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockMeteor/ppRockMeteorImpact.asset
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockMeteor/matRockMeteorBurnOverlay.mat
+- Assets/Mods/Skillsmas/SkillIcons/ReuseableBeacon.png
+- Assets/Mods/Skillsmas/SkillIcons/ZipFist.png
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/Crystallize/BarrierCrystalProjectile.prefab
+- Assets/Mods/Skillsmas/SkillIcons/CrossingStorms.png
+- Assets/Mods/Skillsmas/SkillIcons/EnergyShield.png
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockMeteor/matRockMeteorExplosionFlame.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterBolt/matWaterBoltSplashes.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterBolt/matWaterBolt.mat
+- Assets/Mods/Skillsmas/SkillIcons/Uprooting.asset
+- Assets/Mods/Skillsmas/SkillIcons/LiftOff.png
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockPlatform/mdlRockPlatform.fbx
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterCloud/matWaterCloudDropletShiny.mat
+- Assets/Mods/Skillsmas/Skills/Captain/LendMicrobots/texLendMicrobotsIndicator.png
+- Assets/Mods/Skillsmas/Skills/Huntress/ManualAim/ManualAimFullChargeMuzzleFlash.prefab
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterBolt/WaterBoltExplosionEffect.prefab
+- Assets/Mods/Skillsmas/Skills/REX/SpikyRoots/dry_branches_medium_01_diff_1k.jpg
+- Assets/Mods/Skillsmas/SkillIcons/HeavyBullets.asset
+- Assets/Mods/Skillsmas/SkillIcons/BurstFire.asset
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterCloud/snow_02_nor_gl_1k.exr
+- Assets/Mods/Skillsmas/SkillIcons/Thunderbolt.png
+- Assets/Mods/Skillsmas/SkillIcons/CrashingWave.png
+- Assets/Mods/Skillsmas/Skills/REX/SpikyRoots/dry_branches_medium_01_1k.fbx
+- Assets/Mods/Skillsmas/SkillIcons/CrashingWave.asset
+- Assets/Mods/Skillsmas/Skills/Commando/HeavyBullets/matTracerCommandoHeavyBullet.mat
+- Assets/Mods/Skillsmas/SkillIcons/Brimstone.png
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/Crystallize/matBarrierCrystalSphere.mat
+- Assets/Mods/Skillsmas/SkillIcons/Superbolide.png
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterWave/matWaterWaveExplosionCircle.mat
+- Assets/Mods/Skillsmas/SkillIcons/ZipFist.asset
+- Assets/Mods/Skillsmas/Skills/Bandit/ChainKillBuff/texEnemyMark.png
+- Assets/Mods/Skillsmas/Skills/Huntress/ManualAim/ManualAimChargeFullEffect.prefab
+- Assets/Mods/Skillsmas/Skills/Huntress/TrackerGlaive/wood_planks_dirt_nor_gl_1k.exr
+- Assets/Mods/Skillsmas/Skills/Acrid/PoisonBubble/matPoisonBubbleTrail.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/FireWall/matFireWallEdges.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/FireWall/worn_rock_natural_01_nor_gl_1k.exr
+- Assets/Mods/Skillsmas/Skills/MUL-T/RobotUpdate/RobotUpdateFinish.prefab
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockBomb/RockBombLifetimeExpiredEffect.prefab
+- Assets/Mods/Skillsmas/Skills/Bandit/ChainKillBuff/ppChainKillBuff.asset
+- Assets/Mods/Skillsmas/SkillIcons/UpdateMode.png
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockBolt/matRockBoltTrail.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterWave/WaterWaveEffect.prefab
+- Assets/Mods/Skillsmas/SkillIcons/PhaseBeam.png
+- Assets/Mods/Skillsmas/SkillIcons/WaterBolt.asset
+- Assets/Mods/Skillsmas/Skills/Loader/StopBarrierDecay/matLoaderStopBarrierDecay.mat
+- Assets/Mods/Skillsmas/SkillIcons/SmokeMachine.asset
+- Assets/Mods/Skillsmas/SkillIcons/TakeAim.png
+- Assets/Mods/Skillsmas/Skills/Artificer/FireWall/matFireWallTemporaryFlash.mat
+- Assets/Mods/Skillsmas/SkillIcons/Crate.png
+- Assets/Mods/Skillsmas/SkillIcons/HelpingHand.asset
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterCloud/matWaterCloudArea.mat
+- Assets/Mods/Skillsmas/SkillIcons/MouldedNanoBoulder.asset
+- Assets/Mods/Skillsmas/Skills/Artificer/FlameBomb/matFlameBombChargeParticle.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/Crystallize/texBarrierCrystalSphere.png
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterBolt/matWaterBoltDroplet.mat
+- Assets/Mods/Skillsmas/SkillIcons/DirectiveStimulate.asset
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockMeteor/matRockMeteorEmbeddedCrystal.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterCloud/WaterCloudGhost.prefab
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockBolt/matRockBoltImpactCircle.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/FireWall/worn_rock_natural_01_diff_1k.jpg
+- Assets/Mods/Skillsmas/Skills/Artificer/FlameBomb/FlameBombProjectile.prefab
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockMeteor/matRockMeteorExplosionSmoke.mat
+- Assets/Mods/Skillsmas/Skills/Bandit/ChainKillBuff/texEnemyMarkMask.png
+- Assets/Mods/Skillsmas/SkillIcons/Bloodbath.asset
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterWave/matWaterWaveExplosionSplashes.mat
+- Assets/Mods/Skillsmas/SkillIcons/TectonicShift.asset
+- Assets/Mods/Skillsmas/SkillIcons/Bloodbath.png
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockMeteor/RockMeteorExplosionEffect.prefab
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterCloud/snow_02_bump_1k.exr
+- Assets/Mods/Skillsmas/SkillIcons/FlashFrost.png
+- Assets/Mods/Skillsmas/SkillIcons/LiftOff.asset
+- Assets/Mods/Skillsmas/Skills/Artificer/FireWall/matFireWallHexagon.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/FireWall/FireWall.prefab
+- Assets/Mods/Skillsmas/Skills/Artificer/FireWall/matFireWallPillarTrail.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockMeteor/matRockMeteorPetrifiedOverlay.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockPlatform/texRockPlatformCylinderShine.png
+- Assets/Mods/Skillsmas/SkillIcons/PoisonBubble.png
+- Assets/Mods/Skillsmas/Skills/Artificer/LightningPillar/matLightningPillarDot.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockMeteor/matRockMeteorFlameParticle.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterBolt/matWaterBoltMist.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/LightningPillar/texLightningPillar.png
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockBomb/matRockBomb.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/CryoBolt/matCryoBoltSnow.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockBomb/ChargeRockBomb.prefab
+- Assets/Mods/Skillsmas/SkillIcons/CrossingStorms.asset
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockBolt/RockBoltImpactEffect.prefab
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterBolt/WaterBoltProjectile.prefab
+- Assets/Mods/Skillsmas/Skills/Bandit/ChainKillBuff/ChainKillBuffEffect.prefab
+- Assets/Mods/Skillsmas/Skills/REX/SpikyRoots/SpikyRootProjectile.prefab
+- Assets/Mods/Skillsmas/Skills/Mercenary/XSlash/XSlash2Projectile.prefab
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterCloud/WaterCloudProjectile.prefab
+- Assets/Mods/Skillsmas/SkillIcons/CryoBolt.png
+- Assets/Mods/Skillsmas/Skills/Artificer/LightningPillar/LightningPillar.prefab
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterBomb/matWaterBeam.mat
+- Assets/Mods/Skillsmas/SkillIcons/ConcentratedNanoStream.asset
+- Assets/Mods/Skillsmas/SkillIcons/ManualAim.asset
+- Assets/Mods/Skillsmas/SkillIcons/Reinforce.png
+- Assets/Mods/Skillsmas/Skills/Mercenary/XSlash/mdlSlash.fbx
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterWave/WaterWaveExplosion.prefab
+- Assets/Mods/Skillsmas/Skills/Huntress/ManualAim/ManualAimChargingEffect.prefab
+- Assets/Mods/Skillsmas/Skills/REX/SpikyRoots/SpikyRootGhost.prefab
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterBolt/WaterBoltGhost.prefab
+- Assets/Mods/Skillsmas/Skills/Bandit/ChainKillBuff/matEnemyMarkOverlayShaky.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockPlatform/mdlRockPlatformNormal.png
+- Assets/Mods/Skillsmas/Skills/Artificer/FireWall/matFireWallPillar.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterCloud/matWaterCloudDroplet.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterWave/matWaterWaveEffect.mat
+- Assets/Mods/Skillsmas/Skills/REX/SpikyRoots/matSpikyRoot.mat
+- Assets/Mods/Skillsmas/SkillIcons/DirectiveStimulate.png
+- Assets/Mods/Skillsmas/Skills/Huntress/ManualAim/matManualAimArrow.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/FlameBomb/matFlameBomb.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/CryoBolt/matCryoBolt.mat
+- Assets/Mods/Skillsmas/SkillIcons/HelpingHand.png
+- Assets/Mods/Skillsmas/SkillIcons/MouldedNanoBoulder.png
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockBomb/RockBombGhost.prefab
+- Assets/Mods/Skillsmas/SkillIcons/Zandatsu.png
+- Assets/Mods/Skillsmas/Skills/Artificer/FlameBomb/ChargeFlameBomb.prefab
+- Assets/Mods/Skillsmas/Skills/Huntress/TrackerGlaive/wood_planks_dirt_diff_1k.jpg
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockBolt/RockBoltProjectile.prefab
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockMeteor/RockMeteorProjectile.prefab
+- Assets/Mods/Skillsmas/Skills/Acrid/PoisonBubble/matPoisonBubbleFaint.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockBomb/rock_surface_diff_1k.jpg
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockMeteor/ppRockMeteorNearby.asset
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockMeteor/coral_stone_wall_diff_1k.jpg
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockBolt/RockBoltGhost.prefab
+- Assets/Mods/Skillsmas/Skills/REX/SpikyRoots/matSpikyRootSpike.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/CryoBolt/CryoBoltProjectile.prefab
+- Assets/Mods/Skillsmas/SkillIcons/WaterBolt.png
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockPlatform/mdlRockPlatform.png
+- Assets/Mods/Skillsmas/SkillIcons/GeodeBolt.asset
+- Assets/Mods/Skillsmas/SkillIcons/ReuseableBeacon.asset
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockPlatform/matRockPlatformCylinderShine.mat
+- Assets/Mods/Skillsmas/Skills/Bandit/ChainKillBuff/matChainKillBuffOrb.mat
+- Assets/Mods/Skillsmas/Skills/Huntress/TrackerGlaive/matTrackerGlaive.mat
+- Assets/Mods/Skillsmas/Skills/Huntress/ManualAim/ManualAimArrowProjectile.prefab
+- Assets/Mods/Skillsmas/SkillIcons/Neutropenia.asset
+- Assets/Mods/Skillsmas/Skills/Artificer/FlameBomb/FlameBombGhost.prefab
+- Assets/Mods/Skillsmas/Skills/Mercenary/XSlash/XSlash1Ghost.prefab
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterBolt/New Material.mat
+- Assets/Mods/Skillsmas/SkillIcons/SmokeMachine.png
+- Assets/Mods/Skillsmas/Skills/MUL-T/RobotUpdate/texRobotUpdateBuff.png
+- Assets/Mods/Skillsmas/Skills/MUL-T/Crate/CrateGhost.prefab
+- Assets/Mods/Skillsmas/SkillIcons/Riptide.png
+- Assets/Mods/Skillsmas/SkillIcons/TrackerGlaive.png
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/Crystallize/texBarrierCrystalSphereFade.png
+- Assets/Mods/Skillsmas/SkillIcons/TrackerGlaive.asset
+- Assets/Mods/Skillsmas/SkillIcons/Brimstone.asset
+- Assets/Mods/Skillsmas/Skills/Artificer/FireWall/matFireWallPillarDot.mat
+- Assets/Mods/Skillsmas/Skills/Huntress/ManualAim/matManualAimFullChargeParticle.mat
+- Assets/Mods/Skillsmas/Skills/Acrid/PoisonBubble/BubbleProjectile.prefab
+- Assets/Mods/Skillsmas/Skills/Artificer/CryoBolt/CryoBoltGhost.prefab
+- Assets/Mods/Skillsmas/Skills/Artificer/LightningPillar/texLightningPillar.mat
+- Assets/Mods/Skillsmas/SkillIcons/TectonicShift.png
+- Assets/Mods/Skillsmas/SkillIcons/Cumulonimbus.asset
+- Assets/Mods/Skillsmas/Skills/Artificer/FlameBomb/matFlameBombWireframe.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterBolt/matWaterBoltDistortion.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterCloud/mdlCloud.fbx
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockPlatform/RockPlatform.prefab
+- Assets/Mods/Skillsmas/Skills/Bandit/ChainKillBuff/texEnemyMarkBackdrop.png
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/Crystallize/BarrierCrystalProjectileGhost.prefab
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterBomb/matWaterBeamTrail.mat
+- Assets/Mods/Skillsmas/SkillIcons/ManualAim.png
+- Assets/Mods/Skillsmas/Skills/Mercenary/XSlash/texXSlashParticle.png
+- Assets/Mods/Skillsmas/Skills/MUL-T/RobotUpdate/texRobotUpdateParticle.png
+- Assets/Mods/Skillsmas/SkillIcons/Zandatsu.asset
+- Assets/Mods/Skillsmas/Skills/Bandit/SmokeZone/SmokeZone.prefab
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockPlatform/matRockPlatform.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterCloud/matWaterCloud.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterBomb/mdlWaterBombRing.fbx
+- Assets/Mods/Skillsmas/Skills/Huntress/ManualAim/matManualAimArrowCharged.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/Crystallize/BarrierCrystalPickupEffect.prefab
+- Assets/Mods/Skillsmas/Skills/Artificer/FireWall/matFireWallSolid.mat
+- Assets/Mods/Skillsmas/SkillIcons/HeavyBullets.png
+- Assets/Mods/Skillsmas/SkillIcons/EnergyShield.asset
+- Assets/Mods/Skillsmas/SkillIcons/BurstFire.png
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterWave/matWaterWaveEffectFront.mat
+- Assets/Mods/Skillsmas/SkillIcons/TakeAim.asset
+- Assets/Mods/Skillsmas/Skills/Artificer/FlameBomb/matFlameBombTrail.mat
+- Assets/Mods/Skillsmas/Skills/Commando/TrueFMJ/TracerCommandoTrueFMJ.prefab
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockPlatform/matRockPlatformExpiredRocks.mat
+- Assets/Mods/Skillsmas/Skills/Acrid/PoisonBubble/texPoisonBubble.jpg
+- Assets/Mods/Skillsmas/SkillIcons/Cumulonimbus.png
+- Assets/Mods/Skillsmas/Skills/Bandit/ChainKillBuff/ChainKillBuffOrb.prefab
+- Assets/Mods/Skillsmas/Skills/Engi/EnergyShield/EnergyShield.prefab
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockBolt/matRockBolt.mat
+- Assets/Mods/Skillsmas/SkillIcons/MurderParty.asset
+- Assets/Mods/Skillsmas/Skills/Huntress/TrackerGlaive/TrackerGlaiveGhost.prefab
+- Assets/Mods/Skillsmas/Skills/Mercenary/XSlash/XSlash1Projectile.prefab
+- Assets/Mods/Skillsmas/Skills/REX/SpikyRoots/dry_branches_medium_01_nor_gl_1k.exr
+- Assets/Mods/Skillsmas/Skills/Bandit/SmokeZone/matBanditSmokeZone.mat
+- Assets/Mods/Skillsmas/Skills/Artificer/FireWall/texFireWallCloud.png
+- Assets/Mods/Skillsmas/Skills/Artificer/LightningPillar/matLightningPillarTrail.mat
+- Assets/Mods/Skillsmas/Skills/Acrid/PoisonBubble/matPoisonBubbleSmall.mat
+- Assets/Mods/Skillsmas/SkillIcons/FlashFrost.asset
+- Assets/Mods/Skillsmas/Skills/Huntress/TrackerGlaive/wooden_handle_saber_diff_1k.jpg
+- Assets/Mods/Skillsmas/Skills/Artificer/Water/WaterCloud/snow_02_diff_1k.jpg
+- Assets/Mods/Skillsmas/Skills/MUL-T/Crate/CrateProjectile.prefab
+- Assets/Mods/Skillsmas/SkillIcons/GeodeBolt.png
+- Assets/Mods/Skillsmas/SkillIcons/Neutropenia.png
+- Assets/Mods/Skillsmas/SkillIcons/Reinforce.asset
+- Assets/Mods/Skillsmas/SkillIcons/CryoBolt.asset
+- Assets/Mods/Skillsmas/Skills/Artificer/Rock/RockBomb/matRockBombChargeParticle.mat
+- Assets/Mods/Skillsmas/Skills/Huntress/ManualAim/matManualAimArrowTrail.mat
+Dependencies: []
