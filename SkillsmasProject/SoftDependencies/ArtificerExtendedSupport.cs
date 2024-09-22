@@ -85,19 +85,22 @@ namespace Skillsmas.SoftDependencies
 
         internal static void TriggerAltPassiveSkillCast(GameObject entityStateMachineObject)
         {
+            /*
             if (ArtificerExtended.Passive.AltArtiPassive.instanceLookup.TryGetValue(entityStateMachineObject, out var passive))
             {
                 passive.SkillCast();
             }
+            */
         }
 
         internal static bool BodyHasAltPassive(GameObject bodyObject)
         {
-            return ArtificerExtended.Passive.AltArtiPassive.instanceLookup.TryGetValue(bodyObject, out _);
+            return false; //ArtificerExtended.Passive.AltArtiPassive.instanceLookup.TryGetValue(bodyObject, out _);
         }
 
         internal static void OnBarrierCrystalSpawned(GameObject childGameObject, ProjectileExplosion projectileExplosion)
         {
+            /*
             var barrierPickup = childGameObject.GetComponentInChildren<DamageTypes.Crystallize.SkillsmasBarrierPickup>();
             if (barrierPickup)
             {
@@ -107,17 +110,21 @@ namespace Skillsmas.SoftDependencies
                     barrierPickup.hardenBuffDuration = DamageTypes.Crystallize.energeticResonanceDuration * (int)customElementCounter.rockPower;
                 }
             }
+            */
         }
 
         internal static int GetWaterPower(GameObject bodyGameObject)
         {
+            /*
             if (bodyGameObject && SkillsmasArtificerExtendedElementCounter.lookupDictionary.TryGetValue(bodyGameObject, out var customElementCounter))
             {
                 return (int)customElementCounter.waterPower;
             }
+            */
             return 0;
         }
 
+        /*
         internal class SkillsmasArtificerExtendedElementCounter : MonoBehaviour
         {
             public static Dictionary<GameObject, SkillsmasArtificerExtendedElementCounter> lookupDictionary = new Dictionary<GameObject, SkillsmasArtificerExtendedElementCounter>();
@@ -135,5 +142,6 @@ namespace Skillsmas.SoftDependencies
                 lookupDictionary.Remove(gameObject);
             }
         }
+        */
     }
 }

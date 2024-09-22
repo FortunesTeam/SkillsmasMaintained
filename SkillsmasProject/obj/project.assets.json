@@ -3312,7 +3312,7 @@
       "R2API.TempVisualEffect >= *",
       "R2API.Unlockable >= *",
       "RiskOfRain2.GameLibs >= *-*",
-      "RoR2.BepInEx.Analyzers >= 1.0.8"
+      "RoR2.BepInEx.Analyzers >= *"
     ]
   },
   "packageFolders": {
@@ -3419,7 +3419,7 @@
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[1.0.8, )"
+            "version": "[*, )"
           }
         },
         "imports": [

@@ -106,16 +106,44 @@ namespace Skillsmas.Skills.Merc
             killEffectPrefab = Addressables.LoadAssetAsync<GameObject>("RoR2/Base/Bandit2/Bandit2ResetEffect.prefab").WaitForCompletion();
 
             GlobalEventManager.onCharacterDeathGlobal += GlobalEventManager_onCharacterDeathGlobal;
-            GenericGameEvents.OnApplyDamageExecutions += GenericGameEvents_OnApplyDamageExecutions;
+            GlobalEventManager.onServerDamageDealt += GlobalEventManager_onServerDamageDealt;
         }
 
-        private void GenericGameEvents_OnApplyDamageExecutions(DamageInfo damageInfo, MysticsRisky2UtilsPlugin.GenericCharacterInfo attackerInfo, MysticsRisky2UtilsPlugin.GenericCharacterInfo victimInfo, float damage, ref float executionThreshold, ref GameObject executionEffectPrefab, ref bool forceExecution)
+        private void GlobalEventManager_onServerDamageDealt(DamageReport damageReport)
         {
-            var num = executeThreshold / 100f;
-            if (damageInfo.HasModdedDamageType(zandatsuDamageType) && executionThreshold < num)
+            DamageInfo damageInfo = damageReport.damageInfo;
+            if (!damageReport.attackerBody || !damageReport.victimBody)
             {
-                executionThreshold = num;
-                executionEffectPrefab = null;
+                return;
+            }
+            HealthComponent victim = damageReport.victim;
+            GameObject inflictorObject = damageInfo.inflictor;
+            CharacterBody victimBody = damageReport.victimBody;
+            EntityStateMachine victimMachine = victimBody.GetComponent<EntityStateMachine>();
+            CharacterBody attackerBody = damageReport.attackerBody;
+            GameObject attackerObject = damageReport.attacker.gameObject;
+            if (NetworkServer.active)
+            {
+                if (attackerBody && victimBody)
+                {
+                    var num = executeThreshold / 100f;
+                    if (damageInfo.HasModdedDamageType(zandatsuDamageType) && victim.health <= victim.fullCombinedHealth * num && (victimBody.bodyFlags & CharacterBody.BodyFlags.ImmuneToExecutes) == 0)
+                    {
+                        DamageInfo executeDamage = new DamageInfo();
+                        executeDamage.attacker = attackerObject;
+                        executeDamage.inflictor = attackerObject;
+                        executeDamage.damage = victim.health;
+                        executeDamage.procCoefficient = 0f;
+                        executeDamage.crit = true;
+                        executeDamage.damageType = DamageType.BonusToLowHealth | DamageType.BypassBlock | DamageType.BypassArmor;
+                        executeDamage.damageColorIndex = DamageColorIndex.SuperBleed;
+                        executeDamage.force = Vector3.zero;
+                        executeDamage.dotIndex = DotController.DotIndex.None;
+                        executeDamage.position = victimBody.corePosition;
+
+                        victim.TakeDamage(executeDamage);
+                    }
+                }
             }
         }
 
@@ -205,13 +233,13 @@ namespace Skillsmas.Skills.Merc
                             );
 
                             var targetTransform = hurtBoxGroup.transform;
-                            var temporaryOverlay = targetTransform.gameObject.AddComponent<TemporaryOverlay>();
-                            temporaryOverlay.duration = attackInterval;
-                            temporaryOverlay.animateShaderAlpha = true;
-                            temporaryOverlay.alphaCurve = AnimationCurve.EaseInOut(0f, 1f, 1f, 0f);
-                            temporaryOverlay.destroyComponentOnEnd = true;
-                            temporaryOverlay.originalMaterial = LegacyResourcesAPI.Load<Material>("Materials/matMercEvisTarget");
-                            temporaryOverlay.AddToCharacerModel(targetTransform.GetComponent<CharacterModel>());
+                            TemporaryOverlayInstance temporaryOverlayInstance = TemporaryOverlayManager.AddOverlay(transform.gameObject);
+                            temporaryOverlayInstance.duration = attackInterval;
+                            temporaryOverlayInstance.animateShaderAlpha = true;
+                            temporaryOverlayInstance.alphaCurve = AnimationCurve.EaseInOut(0f, 1f, 1f, 0f);
+                            temporaryOverlayInstance.destroyComponentOnEnd = true;
+                            temporaryOverlayInstance.originalMaterial = LegacyResourcesAPI.Load<Material>("Materials/matMercEvisTarget");
+                            temporaryOverlayInstance.AddToCharacterModel(transform.GetComponent<CharacterModel>());
 
                             if (NetworkServer.active)
                             {

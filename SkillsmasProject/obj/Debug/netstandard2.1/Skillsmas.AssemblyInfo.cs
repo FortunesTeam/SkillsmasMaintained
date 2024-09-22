@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Skillsmas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ea5b55f22e0a993a02f4099cb844f34251b6fa5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b07ddd8f4e5dd141de7c21c74a1677b120f139cd")]
 [assembly: System.Reflection.AssemblyProductAttribute("Skillsmas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Skillsmas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
