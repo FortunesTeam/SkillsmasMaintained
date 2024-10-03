@@ -1,10 +1,31 @@
 {
   "pt-BR": {
+    "COMMANDO_SKILLSMAS_RAPIDFIREWITHRELOAD_NAME": "Rajada de Tiros",
+    "COMMANDO_SKILLSMAS_RAPIDFIREWITHRELOAD_DESCRIPTION": "Dispare contra um inimigo com uma taxa de tiro extremamente alta, causando <style=cIsDamage>{Damage}%</style> de dano. Possui <style=cIsDamage>{Max Stock}</style> de munição.",
+
+    "COMMANDO_SKILLSMAS_HEAVYBULLETS_NAME": "Balas Pesadas",
+    "COMMANDO_SKILLSMAS_HEAVYBULLETS_DESCRIPTION": "Dispare lentamente contra um inimigo, causando <style=cIsDamage>{Damage}%</style> de dano.",
+
+    "COMMANDO_SKILLSMAS_TRUEFMJ_NAME": "Feixe de Fase",
+    "COMMANDO_SKILLSMAS_TRUEFMJ_DESCRIPTION": "Dispare <style=cIsDamage>através dos inimigos</style>, causando <style=cIsDamage>{Damage}%</style> de dano e empurrando-os para trás.",
+
+    "COMMANDO_SKILLSMAS_JETUP_NAME": "Decolagem Tática",
+    "COMMANDO_SKILLSMAS_JETUP_DESCRIPTION": "<style=cIsDamage>Incendiário</style>. Lance-se para cima, causando <style=cIsDamage>{Damage}%</style> de dano.",
+
+    "HUNTRESS_SKILLSMAS_TRACKERGLAIVE_NAME": "Alabarda Rastreadora",
+    "HUNTRESS_SKILLSMAS_TRACKERGLAIVE_DESCRIPTION": "Arremesse uma alabarda, causando <style=cIsDamage>{Damage}%</style> de dano. <style=cIsUtility>Flechas teleguiadas também atacarão o inimigo atingido pela alabarda</style>.",
+
+    "HUNTRESS_SKILLSMAS_MANUALAIM_NAME": "Mira Precisa",
+    "HUNTRESS_SKILLSMAS_MANUALAIM_DESCRIPTION": "Ative o modo <style=cIsUtility>mira manual</style>. Sua Habilidade Primária irá carregar uma flecha que causará <style=cIsDamage>{Minimum Damage}%-{Maximum Damage}%</style> de dano e <style=cIsDamage>incendiará</style> ao ser totalmente carregada.",
+
+    "HUNTRESS_SKILLSMAS_MANUALAIMPRIMARY_NAME": "Mira Manual",
+    "HUNTRESS_SKILLSMAS_MANUALAIMPRIMARY_DESCRIPTION": "<style=cIsUtility>Ágil</style>. Carregue uma flecha que causa <style=cIsDamage>{Minimum Damage}%-{Maximum Damage}%</style> de dano e <style=cIsDamage>incendiará</style> ao ser totalmente carregada.",
+
     "BANDIT2_SKILLSMAS_SMOKEZONE_NAME": "Máquinha de Fumaça",
-    "BANDIT2_SKILLSMAS_SMOKEZONE_DESCRIPTION": "Crie uma zona de fumaça duradoura que garante <style=cIsUtility>invisibilidade</style> aos aliados em sua área.",
+    "BANDIT2_SKILLSMAS_SMOKEZONE_DESCRIPTION": "Crie uma zona de fumaça duradoura que garante <style=cIsUtility>invisibilidade</style> aos aliados na área.",
 
     "BANDIT2_SKILLSMAS_CHAINKILLBUFF_NAME": "Festa do Assassinato",
-    "BANDIT2_SKILLSMAS_CHAINKILLBUFF_DESCRIPTION": "<style=cIsDamage>Assassino</style>. Dispare um tiro de revólver que causa <style=cIsDamage>{Damage}% de dano</style>. Abates <style=cIsUtility>reiniciam o tempo de recarga</style> e marcam o inimigo por <style=cIsUtility>{Mark Duration}</style> segundos até {Max Chain Kills} vezes. Ganhe <style=cIsDamage>+{Bonus Per Mark Kill}% de dano por inimigo marcado abatido</style> por <style=cIsUtility>{Buff Duration}</style> segundos.",
+    "BANDIT2_SKILLSMAS_CHAINKILLBUFF_DESCRIPTION": "<style=cIsDamage>Assassino</style>. Dispare um tiro de revólver que causa <style=cIsDamage>{Damage}% de dano</style>. Abates <style=cIsUtility>reiniciam o tempo de recarga</style> e iniciam <style=cIsDamage>Matança</style>.",
 
     "BANDIT2_SKILLSMAS_SUPERBLEEDBARRAGE_NAME": "Banho de Sangue",
     "BANDIT2_SKILLSMAS_SUPERBLEEDBARRAGE_DESCRIPTION": "Dispare <style=cIsDamage>{Shots}</style> tiros de revólver que causam <style=cIsDamage>{Damage}% de dano</style> nos inimigos com <style=cIsHealth>hemorragia</style> em seu campo de visão.",
@@ -13,7 +34,7 @@
     "TOOLBOT_SKILLSMAS_CRATE_DESCRIPTION": "Lance uma caixa, causando <style=cIsDamage>{Damage}%</style> de dano. <style=cIsUtility>Pode ser empurrada, usada como plataforma ou para bloquear projéteis.</style>",
 
     "TOOLBOT_SKILLSMAS_ROBOTUPDATE_NAME": "Modo de Atualização",
-    "TOOLBOT_SKILLSMAS_ROBOTUPDATE_DESCRIPTION": "Torne-se <style=cIsHealth>incapaz</style> de correr, pular e atacar por <style=cIsHealth>{Update Duration}</style> segundos, então recupere <style=cIsHealing>{Healing}%</style> de PV e ganhe <style=cIsDamage>+{Attack Speed}%</style> de velocidade de ataque por <style=cIsUtility>{Buff Duration}</style> segundos.",
+    "TOOLBOT_SKILLSMAS_ROBOTUPDATE_DESCRIPTION": "<style=cIsHealth>Inofensivo</style>. Entre em um modo de atualização por <style=cIsHealth>{Update Duration}</style> segundos, então recupere <style=cIsHealing>{Healing}%</style> de saúde e ganhe <style=cIsDamage>+{Attack Speed}%</style> de velocidade de ataque por <style=cIsUtility>{Buff Duration}</style> segundos.",
 
     "ENGI_SKILLSMAS_ENERGYSHIELD_NAME": "Escudo de Energia",
     "ENGI_SKILLSMAS_ENERGYSHIELD_DESCRIPTION": "<style=cIsUtility>Ágil</style>. Segure para gerar uma parede que causa <style=cIsDamage>{Damage Per Second}%</style> de dano por segundo e <style=cIsUtility>bloqueia a maioria dos ataques</style>.",
@@ -66,6 +87,12 @@
     "MERC_SKILLSMAS_XSLASH_NAME": "Tormenta Cruzada",
     "MERC_SKILLSMAS_XSLASH_DESCRIPTION": "Realiza uma longa investida diagonal causando <style=cIsDamage>{Damage}%</style> de dano. Máximo de 2.",
 
+    "TREEBOT_SKILLSMAS_SPIKYROOTS_NAME": "Enraizar",
+    "TREEBOT_SKILLSMAS_SPIKYROOTS_DESCRIPTION": "<style=cIsHealth>{HP Cost}% de saúde</style>. Ataque com raízes espinhentas espinhosas, causando <style=cIsDamage>{Damage}%</style> de dano. <style=cIsHealing>Cure para cada alvo atingido</style>.",
+
+    "TREEBOT_SKILLSMAS_WALKINGHEALER_NAME": "DIRECTIVE: Stimulate",
+    "TREEBOT_SKILLSMAS_WALKINGHEALER_DESCRIPTION": "<style=cIsHealth>Inofensivo</style>. Cure aliados próximos em <style=cIsHealing>{Healing}%</style> de de saúde por segundo.",
+
     "LOADER_SKILLSMAS_QUICKGRAPPLE_NAME": "Garra de Avanço Rápido",
     "LOADER_SKILLSMAS_QUICKGRAPPLE_DESCRIPTION": "Dispara a garra adiante, <style=cIsUtility>puxando rapidamente</style> você até o alvo após recolher imediatamente a manopla.",
 
@@ -76,7 +103,7 @@
     "CROCO_SKILLSMAS_POISONBUBBLE_DESCRIPTION": "<style=cIsHealing>Venenoso</style>. Crie uma lenta bolha que causa <style=cIsDamage>{Damage}%</style> de dano por segundo aos inimigos próximos.",
 
     "CROCO_SKILLSMAS_POISONEXTENSION_NAME": "Neutropenia",
-    "CROCO_SKILLSMAS_POISONEXTENSION_DESCRIPTION": "Libere uma doença mortal que limpa o veneno do inimigo para se espalhar em até <style=cIsDamage>{Max Targets}</style> alvos por <style=cIsUtility>{Duration Multiplier}x</style> a duração.",
+    "CROCO_SKILLSMAS_POISONEXTENSION_DESCRIPTION": "Libere uma doença mortal que remove o veneno do inimigo para se espalhar em até <style=cIsDamage>{Max Targets}</style> alvos por <style=cIsUtility>{Duration Multiplier}x</style> a duração.",
 
     "CAPTAIN_SKILLSMAS_LENDMICROBOTS_NAME": "Mão Amiga",
     "CAPTAIN_SKILLSMAS_LENDMICROBOTS_DESCRIPTION": "Dá a um aliado <style=cIsUtility>Microrrobôs Defensivos</style> por <style=cIsUtility>{Duration}</style> segundos.",
@@ -88,5 +115,7 @@
     "KEYWORD_SKILLSMAS_REVITALIZING": "<style=cKeywordName>Revitalizante</style><style=cSub>Atingir inimigos recupera a saúde de todos os aliados em <style=cIsHealing>{Flat Healing}</style> pontos de saúde e um adicional de <style=cIsHealing>{Fractional Healing}%</style> de <style=cIsUtility>sua</style> saúde máxima.</style>",
     "KEYWORD_SKILLSMAS_ARTIFICEREXTENDED_ALTPASSIVE_ROCK": "<style=cKeywordName>Caso Ressonância Energética esteja equipada</style><style=cKeywordName>Endurecer</style><style=cSub>Cristais também garantem <style=cIsUtility>{Energetic Resonance Armor}</style> de armadura por <style=cIsUtility>{Energetic Resonance Duration}</style> segundos.\r\n<style=cIsUtility>Endurecer</style> tem sua duração aumentada para cada habilidade de <style=cIsDamage>ROCHA</style>.</style>",
     "KEYWORD_SKILLSMAS_ARTIFICEREXTENDED_ALTPASSIVE_WATER": "<style=cKeywordName>Caso Ressonância Energética esteja equipada</style><style=cKeywordName>Sanctify</style><style=cSub>Revitalizante também garante <style=cIsUtility>{Energetic Resonance Chance}%</style> de chance de limpar <style=cIsUtility>1</style> acúmulo de penalidade aleatória.\r\n<style=cIsUtility>Santificar</style> tem sua chance aumentada para cada habilidade de <style=cIsDamage>ÁGUA</style>.</style>"
-  }
+    "KEYWORD_SKILLSMAS_HARMLESS": "<style=cKeywordName>Inofensivo</style><style=cSub>Não pode atacar durante esta habilidade.</style>",
+    "KEYWORD_SKILLSMAS_KILLCHAIN": "<style=cKeywordName>Matança</style><style=cSub>Marca um inimigo por <style=cIsUtility>{Mark Duration}</style> segundos. Abater um inimigo marcado reinicia o tempo de recarga e marca outro inimigo. Após errar um disparo ou abater {Max Chain Kills} inimigos marcados, ganhe <style=cIsDamage>+{Bonus Per Mark Kill}% de dano por matança</style> durante <style=cIsUtility>{Buff Duration}</style> segundos.</style>"
+   }
 }
